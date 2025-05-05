@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔗 Encurtador de URL
 
-## Getting Started
+Um serviço rápido e prático para encurtar links longos e facilitar o compartilhamento.
 
-First, run the development server:
+Desenvolvido com **Node.js** e **SQLite**, oferece redirecionamento instantâneo e API RESTful.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✅ Funcionalidades Implementadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Criação de URLs curtas
+Gere um link curto com redirecionamento automático
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Redirecionamento Automático
+Acesse https://seudominio.com/abc123 e vá direto para o destino original
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Estatísticas de Cliques (opcional)
+Veja quantas vezes sua URL foi acessada
 
-## Learn More
+### Expiração de Links
+Configure validade opcional para cada link
 
-To learn more about Next.js, take a look at the following resources:
+## 🚧 Em Desenvolvimento
+### Painel de Administração
+Visualize, edite e delete links encurtados via interface web
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### URLs Personalizadas
+Escolha seu próprio código curto: /encurtar https://exemplo.com/link --custom meu-link
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Relatórios Avançados
+📊 Gráficos de acesso por período
 
-## Deploy on Vercel
+📍 Origem dos cliques
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🕐 Análise de horários com mais acessos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Integrações Futuras
+- 🔗 Plugin para navegadores
+- 🔗 Extensão de compartilhamento direto por redes sociais
+- 🔗 Encurtamento em massa via upload de CSV
+
+## Tecnologias:
+- Node.js
+- Express.js
+- SQLite
+- NanoID
+- Docker (para deploy simplificado)
